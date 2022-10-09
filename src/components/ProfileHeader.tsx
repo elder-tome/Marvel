@@ -17,7 +17,7 @@ function ProfileHeader({ imgUrl, name, subName, description }: Props) {
 					<h1 className='text-transform: uppercase'>{name}</h1>
 				</div>
 			</div>
-			<span className='w-full lg:hidden'>{name}</span>
+			<span className='w-full lg:hidden'>{subName}</span>
 			<h1 className='w-full text-transform: uppercase mb-3 lg:hidden'>
 				{name}
 			</h1>
