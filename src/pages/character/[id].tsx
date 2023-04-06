@@ -133,7 +133,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 		props: {
 			data: JSON.parse(JSON.stringify(docCharacter.data())),
 		},
-		revalidate: 60 * 60 * 6, //6 hours
+		// revalidate: 60 * 60 * 6, //6 hours
 	}
 }
 
